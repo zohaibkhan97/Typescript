@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "./stlyesheets/home.scss";
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", "serif", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: cornsilk;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.h100 {
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  // color: $white;
+  &::first-letter {
+    text-transform: capitalize;
+  }
+}
+
+.light_bg {
+  background-color: white;
+}
+.secondary_bg {
+  background-color: secondary;
+}
+
+.box-shadow {
+  box-shadow: box-shadow;
+}
+
+.particles-bg-canvas-self {
+  height: 50vh !important;
+}
+
+.btn-primary {
+  background-color: primary !important;
+}
+
+.abc,
+.xyz {
+  background-color: blue;
+  border: 1px solid red;
+}
+
+.xyz {
+  color: brown;
+}
+
+.text_secondary {
+  color: secondary !important;
+}
