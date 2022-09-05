@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "./stlyesheets/variable.scss";
+@import "./stlyesheets/navbar.scss";
 @import "./stlyesheets/home.scss";
+@import "./stylesheets/sidebar.scss";
 body {
   margin: 0;
   font-family: "Helvetica", "Arial", "serif", "sans-serif";
@@ -31,14 +34,14 @@ p {
 }
 
 .light_bg {
-  background-color: white;
+  background-color: $white;
 }
 .secondary_bg {
-  background-color: secondary;
+  background-color: $secondary;
 }
 
 .box-shadow {
-  box-shadow: box-shadow;
+  box-shadow: $box-shadow;
 }
 
 .particles-bg-canvas-self {
@@ -46,13 +49,13 @@ p {
 }
 
 .btn-primary {
-  background-color: primary !important;
+  background-color: $primary !important;
 }
 
 .abc,
 .xyz {
-  background-color: blue;
-  border: 1px solid red;
+  background-color: darkgray;
+  border: 1px solid orange;
 }
 
 .xyz {
@@ -60,5 +63,5 @@ p {
 }
 
 .text_secondary {
-  color: secondary !important;
+  color: $secondary !important;
 }

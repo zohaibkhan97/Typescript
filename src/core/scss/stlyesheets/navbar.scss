@@ -1,0 +1,33 @@
+.nav_bar {
+  background-color: $primary;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  box-shadow: $box-shadow;
+  a {
+    color: $secondary;
+  }
+  h5 {
+    margin: 0;
+    color: $secondary;
+  }
+  .internal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navtext {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .img {
+    padding: 5px;
+    width: 50px;
+  }
+}

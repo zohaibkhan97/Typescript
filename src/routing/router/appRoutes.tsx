@@ -1,11 +1,12 @@
-import React, { Fragment } from "react";
-import AuthLayout from '../../core/layout/AuthLayout';
+
+
+import AppLayout from "../../core/layout/AppLayout";
 import Home from "../../view/home";
 
 
 
 
-const appRoutes = [{path: "/", component:Home, layout: AuthLayout}]
+const appRoutes = [{path: "/", component:Home, layout: AppLayout}]
   
 
 

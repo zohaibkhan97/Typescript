@@ -4,8 +4,8 @@ import { Card } from 'reactstrap'
 function Home() {
   return (
    <Fragment>
-       <Card className='Card'>
-          Home
+       <Card className='polaris'>
+          {/* Home */}
        </Card>
    </Fragment>
   )
