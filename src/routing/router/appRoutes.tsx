@@ -1,13 +1,16 @@
+import { lazy } from "react";
 
-
-import AppLayout from "../../core/layout/AppLayout";
-import Home from "../../view/home";
-
-
-
-
-const appRoutes = [{path: "/", component:Home, layout: AppLayout}]
-  
-
+const appRoutes = [
+  {
+    path: "/",
+    component: lazy(() => import("../../view/home")),
+    layout: "AppLayout",
+  },
+  {
+    path: "/home",
+    component: lazy(() => import("../../view/home")),
+    layout: "AppLayout",
+  },
+];
 
 export default appRoutes;

@@ -1,0 +1,43 @@
+.admin_login {
+  // background: linear-gradient(rgba($color: #000000, $alpha: 0.8), rgba($color: #000000, $alpha: 0.8)),url('../assets/images/1.jpg');
+  background: linear-gradient(
+      rgba($color: #000000, $alpha: 0.5),
+      rgba($color: #000000, $alpha: 0.5)
+    ),
+    url("../../../assets/Images/bgs/Firelogo.jpg");
+  // background: url('../assets/images/2.jpg');
+  // background: url('../assets/images/1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  .admin_login_inner {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+}
+
+.admin_layout {
+  background: $primary;
+  padding-bottom: 25px;
+  // background-size: cover;
+  // background-position: center;
+  // height: 100%;
+  // width: 100%;
+  // // position: fixed;
+  // // overflow: auto;
+  // top: 0;
+  // left: 0;
+
+  // .admin_login_inner{
+  //     display: flex;
+  //     align-items: center;
+  //     height: 100vh;
+
+  // }
+}

@@ -6,23 +6,50 @@ import Sidebar from "../../sidebar/Sidebar";
 
 export default function AppLayout(props : any) {
   return <Fragment>
-    
-      <Row>
+     <div className="admin_layout">
+      <Row >
+
         <Media query="(min-width:1020px)">
           {(matches)=> {return matches && (
            <Col md='3'>
            
             <Sidebar/>
+          
            </Col> 
           )
           }}
 
         </Media>
-      </Row>
-  
+        <Media query= "(max-width : 1020px)" >
+          {(matches)=> {
+          return matches ? (
+            <div className="pl-3">
+              <Navbar/>
 
-    <Navbar/>
-    {props.children}
+            <div >
+
+            {props.children}
+            </div>
+            </div>
+
+          ) : (
+            <div>
+              <Navbar/>
+
+            <div >
+
+            {props.children}
+            </div>
+            </div>
+
+
+          )
+          }}
+
+        </Media>
+      </Row>
+  </div>
+
     
   </Fragment>
 }

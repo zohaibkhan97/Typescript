@@ -2,13 +2,18 @@
 @import "./stlyesheets/variable.scss";
 @import "./stlyesheets/navbar.scss";
 @import "./stlyesheets/home.scss";
-@import "./stylesheets/sidebar.scss";
+@import "./stlyesheets/layout.scss";
+@import "./stlyesheets/sidebar.scss";
 body {
   margin: 0;
   font-family: "Helvetica", "Arial", "serif", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: cornsilk;
+  background: url("../../assets/Images/bgs/5c2a961d8d92d.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 code {
